@@ -120,18 +120,51 @@
 // });
 
 
-$(function(){
-	$('#typo')
-	  .on('mouseover', function(){
-	  	$('#typo').stop(true).animate({
-	  		backgroundColor: '#ae5e9b'
-	  	},
-	  	500);
-	  })
-	  .on('mouseout', function(){
-	  	$('#typo').stop(true).animate({
-	  		backgroundColor: '#3498db'
-	  	},
-	  	500);
-	  });
-});
+// $(function(){
+// 	$('#typo')
+// 	  .on('mouseover', function(){
+// 	  	$('#typo').stop(true).animate({
+// 	  		backgroundColor: '#ae5e9b'
+// 	  	},
+// 	  	500);
+// 	  })
+// 	  .on('mouseout', function(){
+// 	  	$('#typo').stop(true).animate({
+// 	  		backgroundColor: '#3498db'
+// 	  	},
+// 	  	500);
+// 	  });
+// });
+
+
+// var arg = {
+// 	     'font-size': '10px',
+// 	     'background-color': '#ae5e9b',
+// 	     'color': '#ebc000'
+//       };
+
+// $(function(){
+// 	$('#typo').on('click', function(){
+// 		$('#typo').css(arg);
+// 	});
+// });
+// $('header').css(arg);
+
+
+
+// var obj = { a: 100, b: 200 };
+// var data;
+
+// data = obj.a + obj.b;
+// data = obj['a'] + obj['b']
+
+
+
+// var array = [ 100, 200, 300 ];
+// var sum;
+
+// sum = array[0] + array[2];
+// sum = array[1] + array[2];
+
+
+
