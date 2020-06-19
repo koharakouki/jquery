@@ -208,3 +208,7 @@
 // var added1 = add(1, 3);
 
 
+// var num = 10 - 5 * 345 / 97;
+// console.log(num);
+
+
