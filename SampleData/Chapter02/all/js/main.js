@@ -167,4 +167,44 @@
 // sum = array[1] + array[2];
 
 
+// $(function(){
+// 	$('#typo').on('click', function(){
+// 		$(this).css('color', '#ae5e9b');
+// 	});
+// });
+
+
+// $(function(){
+// 	function ChangeColor(){
+// 		$(this).css('color', '#ebc000');
+// 	};
+
+// 	$('#typo').on('click', ChangeColor);
+// });
+
+
+// $(function(){
+// 	$('header, #typo, footer')
+// 	.on('mouseover', function(){
+// 		$(this).css('background-color', '#ebc000');
+// 	})
+// 	.on('mouseout', function(){
+// 		$(this).css('background-color', '');
+// 	});
+// });
+
+
+// function add(num1, num2){
+//   return num1 + num2;
+// }
+
+// var added1 = add(1, 3);
+
+
+// var add = function(num1, num2){
+// 	return num1 + num2;
+// }
+
+// var added1 = add(1, 3);
+
 
