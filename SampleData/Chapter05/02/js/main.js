@@ -200,6 +200,7 @@ $(function(){
             $indicator.find('a').removeClass('active').eq(currentIndex).addClass('active');
         }
 
+        // タイムをスタートさせる関数
         function startTimer() {
             timer = setInterval(function(){
                 var nextIndex = (currentIndex + 1) % slideCount;
@@ -207,6 +208,7 @@ $(function(){
             }, interval);
         }
 
+        // タイムを一時停止させる関数
         function stopTimer() {
             clearInterval(timer);
         }
@@ -230,12 +232,10 @@ $(function(){
             }
         });
 
-
         $container.on({
             mouseenter: stopTimer,
             mouseleave: startTimer
         });
-
 
         goToSlide(currentIndex);
 
