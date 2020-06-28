@@ -27,12 +27,40 @@
 // 	})
 // });
 
+// $(function() {
+// 	$('#typo .inner')
+// 	.on('mouseover', function() {
+// 		$(this).css('color', '#000');
+// 	})
+// 	.on('mouseout', function() {
+// 		$(this).css('color', 'green');
+// 	});
+// });
+
+
+// $(function() {
+// 	$('#typo').on('click', function(){
+// 		$('#typo .inner').animate({
+// 			  opacity: 0,
+// 			  fontSize: '0px'
+// 		  }, 1500
+// 		);
+// 	});
+// });
+
+
 $(function() {
-	$('#typo .inner')
-	.on('mouseover', function() {
-		$(this).css('color', '#000');
-	})
-	.on('mouseout', function() {
-		$(this).css('color', 'green');
-	});
+	$('#typo')
+	  .on('mouseover', function(){
+	  	$('#typo').stop(true).animate({
+	  		  backgroundColor: '#ae5e9b'
+	  	  }, 500
+	  	);
+	  })
+	  .on('mouseout', function(){
+	  	$(this).stop(true).animate({
+	  		  backgroundColor: '#ebc000'
+	  	  }, 500
+	  	);
+	  });
 });
